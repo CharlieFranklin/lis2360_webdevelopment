@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document created by Ken Baldauf, January 26, 2011 updated August 2014*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #000000;
+	background-color: #fff;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+	padding: 0 40px;
+}
+h1 {
+	font-size: 24px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	margin: 0;
+}
+h2 {
+	font-size: 20px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #9B9744;
+	padding: 0 40px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFF00;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 0px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #999933 1px;
+}
+td {
+	padding: 6px;
+	border: solid #999933 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #999933 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #B0AC22 1px;
+}
+
+img {
+	border: solid #B0AC22 1px;
+
+}
+iframe {
+	border: solid #B0AC22 1px;
+	padding: 8px;
+	margin: 8px;
+}
+/* DIV Styles for page layout */
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+	overflow: hidden;
+
+}
+#header{
+	width: 100%;
+	background-color: #eee;
+	padding-bottom: 0px;
+}
+#content{
+	width: 600px;
+	float: left;
+	padding-bottom: 40px;
+}
+#sidebar{
+	width: 280px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+#sidebar p{
+	padding: 10px;
+	background: #B0AC22;
+	border: 5px solid #000;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #000;
+}
+#footer{
+	width: 100%;
+	background-color: #eee;
+	border-top: 1px solid #000;
+	padding: 40px 0;
+	clear: both;
+}
+#footer p{
+	margin: 0;
+}
+
+
